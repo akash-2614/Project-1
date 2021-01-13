@@ -28,3 +28,11 @@ int main()
     waitKey(0);                     
     return 0;
 }
+
+/*
+ Commands to run program on terminal::
+
+ g++ -ggdb `pkg-config --cflags filename` -o `basename filename .cpp` filename `pkg-config --libs opencv`
+
+ ./cvopen filename
+*/
